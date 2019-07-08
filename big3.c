@@ -1,6 +1,6 @@
 #include <stdio.h>
  
-void main()
+big()
 {
     int num1, num2, num3;
  
@@ -11,15 +11,15 @@ void main()
     {
         if (num1 > num3)
         {
-            printf("%d is the greatest among three \n", num1);
+            printf("%d is the greatest among three \n\n", num1);
         }
         else
         {
-            printf("%d is the greatest among three \n", num3);
+            printf("%d is the greatest among three \n\n", num3);
         }
     }
     else if (num2 > num3)
-        printf("%d is the greatest among three \n", num2);
+        printf("%d is the greatest among three \n\n", num2);
     else
-        printf("%d is the greatest among three \n", num3);
+        printf("%d is the greatest among three \n\n", num3);
 }
