@@ -2,13 +2,13 @@
  
 void fact()
 {
-  int c, n, fact = 1;
+  int i, n, fact = 1;
  
   printf("Enter a number to calculate its factorial\n");
   scanf("%d", &n);
  
-  for (c = 1; c <= n; c++)
-    fact = fact * c;
+  for (i = 1; i <= n; i++)
+    fact = fact * i;
  
   printf("Factorial of %d = %d\n\n", n, fact);
  
