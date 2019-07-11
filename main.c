@@ -1,8 +1,8 @@
 #include <stdio.h>
 void main()
 {
- fact();
- big();
+void fact();
+void big();
 //	palindrome();
- reverse_str();
+void reverse_str();
 }
