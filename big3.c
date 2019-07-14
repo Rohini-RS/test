@@ -24,3 +24,5 @@ void big()
     else
         printf("%d is the greatest among three \n\n", num3);
 }
+
+//end of the program
