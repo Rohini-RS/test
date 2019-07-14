@@ -1,4 +1,4 @@
-// it is a biggest of three no. program
+// it is a biggest of three no. program is working fine
 #include <stdio.h>
  
 void big()
